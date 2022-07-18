@@ -13,7 +13,7 @@ import { createRequire } from "module"; // Bring in the ability to create the 'r
 const require = createRequire(import.meta.url); // construct the require method
 const packages = require("./package.json") // use the require method
 import logSymbols from 'log-symbols';
-const regx = new RegExp("^[a-zA-Z]+$"); //检查文件名是否是英文，只支持英文
+const regx = new RegExp("^[a-zA-Z\-0-9]+$"); //检查文件名是否是英文，只支持英文
 
 program
   .version(packages.version, '-v,--version')

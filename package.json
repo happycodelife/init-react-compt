@@ -1,6 +1,6 @@
 {
   "name": "init-react-compt",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,7 @@
   "author": "likuiling",
   "license": "ISC",
   "type": "module",
+  "repository": "https://github.com/happycodelife/init-react-compt.git",
   "bin": {
     "initReactCompt": "index.js"
   },
